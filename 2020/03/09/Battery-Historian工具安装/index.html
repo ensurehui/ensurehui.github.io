@@ -6,15 +6,31 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Hexo</title>
+  <title>Battery Historian工具安装 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="Battery historian工具安装（windows10-使用了vpn)1.安装Go语言 Go语言下载 安装Go 配置GOROOT和GOPATH  注意：系统环境变量与用户环境变量，本人修改的为系统环境变量，后续以管理员身份运行git bash。  配置GOROOT：告诉Go命令和其他相关工具，哪里找到安装在电脑上的Go包，配置Go的安装目录    配置GOPATH：可以理解为是工程的目录，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Battery Historian工具安装">
+<meta property="og:url" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Battery historian工具安装（windows10-使用了vpn)1.安装Go语言 Go语言下载 安装Go 配置GOROOT和GOPATH  注意：系统环境变量与用户环境变量，本人修改的为系统环境变量，后续以管理员身份运行git bash。  配置GOROOT：告诉Go命令和其他相关工具，哪里找到安装在电脑上的Go包，配置Go的安装目录    配置GOPATH：可以理解为是工程的目录，">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/A9F10FFAA6D8498EBA048E789DA8E00E">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/0B80E9A7032B464F80B70920F6C65BD9">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/01ECB6F3525F420BAF0B3E15D632E0DA">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/E1924366D3484105B547FCFB88B5D94D">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/285564AA804940EABD4951BBBBB854C2">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/15CD01EA4EB0408295BB2DD6163DBCBA">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/51E1B7B4951A46FBA0D298E8408146D1">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/6E674C517A054D7EB1716DC0AEB31C44">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/9EBA077CD48441308356ACA09631EE43">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/E29E2B0C63724205B5A3AFD2B348E32E">
+<meta property="og:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/AE1C799E68AE4DBB85A315C9A0A63747">
+<meta property="article:published_time" content="2020-03-09T15:44:15.000Z">
+<meta property="article:modified_time" content="2020-03-09T15:45:47.843Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/A9F10FFAA6D8498EBA048E789DA8E00E">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,76 +166,260 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-Battery-Historian工具安装" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      Battery Historian工具安装
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/" class="archive-article-date">
+
+        
+        <a href="/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/" class="archive-article-date">
   	<time datetime="2020-03-09T15:44:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-09</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/">Battery Historian工具安装</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Battery-historian工具安装（windows10-使用了vpn"><a href="#Battery-historian工具安装（windows10-使用了vpn" class="headerlink" title="Battery historian工具安装（windows10-使用了vpn)"></a>Battery historian工具安装（windows10-使用了vpn)</h1><h2 id="1-安装Go语言"><a href="#1-安装Go语言" class="headerlink" title="1.安装Go语言"></a>1.安装Go语言</h2><ol>
+<li><a href="https://golang.org/doc/install" target="_blank" rel="noopener">Go语言下载</a></li>
+<li>安装Go</li>
+<li>配置GOROOT和GOPATH</li>
+</ol>
+<p>注意：系统环境变量与用户环境变量，本人修改的为系统环境变量，后续以管理员身份运行git bash。</p>
+<ul>
+<li>配置GOROOT：告诉Go命令和其他相关工具，哪里找到安装在电脑上的Go包，配置Go的安装目录</li>
+</ul>
+<p><img src="A9F10FFAA6D8498EBA048E789DA8E00E" alt="GOROOT"></p>
+<ul>
+<li>配置GOPATH：可以理解为是工程的目录，创建一个Go的工程路径</li>
+</ul>
+<p><img src="0B80E9A7032B464F80B70920F6C65BD9" alt="GOPATH"></p>
+<ul>
+<li>配置环境变量，把Go的bin目录放到path环境变量中</li>
+</ul>
+<p>在Path中配置环境变量</p>
+<p><img src="01ECB6F3525F420BAF0B3E15D632E0DA" alt="go"></p>
+<h2 id="2-安装git"><a href="#2-安装git" class="headerlink" title="2.安装git"></a>2.安装git</h2><ol>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git下载</a></li>
+<li>按照步骤进行安装</li>
+<li>安装完检查：命令行输入git version</li>
+</ol>
+<h2 id="3-安装python"><a href="#3-安装python" class="headerlink" title="3.安装python"></a>3.安装python</h2><ol>
+<li><a href="https://www.python.org/" target="_blank" rel="noopener">python下载</a>，注意仅支持python2.7</li>
+<li>配置环境变量，添加Path的路径，为Python的安装路径<br><img src="E1924366D3484105B547FCFB88B5D94D" alt="python"></li>
+<li>命令行输入python -V，检查是否安装成功</li>
+</ol>
+<h2 id="4-安装Java"><a href="#4-安装Java" class="headerlink" title="4.安装Java"></a>4.安装Java</h2><ol>
+<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">Java下载</a></li>
+<li>按照步骤安装</li>
+<li>配置环境变量</li>
+</ol>
+<ul>
+<li>新建-&gt;变量名”JAVA_HOME”，变量值为JDK的安装路径</li>
+</ul>
+<p><img src="285564AA804940EABD4951BBBBB854C2" alt="java_home"></p>
+<ul>
+<li>编辑Path-&gt;加入”%JAVA_HOME%\bin”和”%JAVA_HOME%\jre\bin”</li>
+</ul>
+<p><img src="15CD01EA4EB0408295BB2DD6163DBCBA" alt="java"></p>
+<ul>
+<li>新建-&gt;变量名”CLASSPATH”,变量值.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar”</li>
+</ul>
+<p><img src="51E1B7B4951A46FBA0D298E8408146D1" alt="classpath"></p>
+<h2 id="5-下载Battery-Historian源码并且运行"><a href="#5-下载Battery-Historian源码并且运行" class="headerlink" title="5.下载Battery Historian源码并且运行"></a>5.下载Battery Historian源码并且运行</h2><ol>
+<li>管理员身份打开Git Bash</li>
+</ol>
+<p>输入命令：go get -d -u github.com/google/battery-historian/…</p>
+<p><img src="6E674C517A054D7EB1716DC0AEB31C44" alt="下载源码step1"></p>
+<ol start="2">
+<li>进入到$GOPATH/src/github.com/google/battery-historian目录下方</li>
+</ol>
+<ul>
+<li>输入go run setup.go</li>
+</ul>
+<p>#Compile Javascript files using the Closure compiler</p>
+<p><img src="9EBA077CD48441308356ACA09631EE43" alt="下载源码step3"></p>
+<ol start="3">
+<li>运行Battery Historian</li>
+</ol>
+<p>输入命令：go run cmd/battery-historian/battery-historian.go</p>
+<p><img src="E29E2B0C63724205B5A3AFD2B348E32E" alt="run"></p>
+<ol start="4">
+<li>浏览器打开输入<a href="http://localhost:9999" target="_blank" rel="noopener">http://localhost:9999</a></li>
+</ol>
+<h2 id="6-遇到的常见问题"><a href="#6-遇到的常见问题" class="headerlink" title="6.遇到的常见问题"></a>6.遇到的常见问题</h2><h3 id="1-git-clone出现fatal-unable-to-access-‘https-github-com-39-的解决办法"><a href="#1-git-clone出现fatal-unable-to-access-‘https-github-com-39-的解决办法" class="headerlink" title="1. git clone出现fatal: unable to access ‘https://github.com/...&#39; 的解决办法"></a>1. git clone出现<strong><em>fatal: unable to access ‘<a href="https://github.com/...&#39;" target="_blank" rel="noopener">https://github.com/...&#39;</a> 的解决办法</em></strong></h3><p>发生这种情况是因为代理是在git中配置的。既然它是https代理（而不是http）git config http.proxy和git config –global http.proxy也无济于事。</p>
+<p>解决方案一 ：<br>1、看看你的git配置</p>
+<pre><code>git config --global -l</code></pre><p>如果你没有任何与https代理相关的内容，例如https_proxy = …问题不在这里。</p>
+<p>如果您有与https代理相关的内容，请将其从〜/ .gitconfig文件中删除，然后重试。<br>2、如果仍然不起作用，请取消设置环境变量</p>
+<pre><code>env|grep -i proxy</code></pre><p> 你应该有一行或几行https_proxy = …</p>
+<p>使用以下内容逐个取消设置：取消设置https_proxy（或HTTPS_PROXY，具体取决于变量的名称）<br>3、再次检查环境变量</p>
+<pre><code>env|grep -i proxy</code></pre><p>如果它没有显示任何你应该是好的。</p>
+<p>注意：此解决方案可以应用于http和https代理问题。只是变量名称从https更改为http。</p>
+<p> 解决方案二:</p>
+<p>在开启shadowsocks的前提下，手动配置git的代理。git客户端输入如下两个命令就可以了。</p>
+<pre><code>git config --global http.proxy http://127.0.0.1:1080
 
-        <div class="article-info info-on-right">
-          
-          
+git config --global https.proxy http://127.0.0.1:1080</code></pre><p>http:// 也可以改成sockets5://,但是区别在于：socks5不支持通过pubkey免密登录github，每次提交代码只能输入用户名和密码。http可以支持免密登录。</p>
+<p>取消代理：</p>
+<pre><code>git config --global --unset http.proxy
 
+git config --global --unset https.proxy</code></pre><h3 id="2-运行go-run-setup-go这一步出错，出错信息如下："><a href="#2-运行go-run-setup-go这一步出错，出错信息如下：" class="headerlink" title="2. 运行go run setup.go这一步出错，出错信息如下："></a>2. 运行go run setup.go这一步出错，出错信息如下：</h3><ol>
+<li><strong><em>error: RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054</em></strong></li>
+</ol>
+<p>解决方法：</p>
+<p>出现此问题有可能是上传大小限制，执行如下命令：</p>
+<p>git config –global http.postBuffer 524288000</p>
+<p>524288000算法：1024<em>1024</em>500</p>
+<p>依然报错，可尝试：</p>
+<p>git config –global http.sslVerify “false”</p>
+<ol start="2">
+<li><strong><em>error: RPC failed; curl 18 transfer closed with outstanding read data remain</em></strong></li>
+</ol>
+<p>究其原因是因为curl的postBuffer的默认值太小，我们需要调整它的大小，在终端重新配置大小。</p>
+<p>git config –global http.postBuffer 524288000</p>
+<ol start="3">
+<li>卡在<strong><em>Download closure-library…</em></strong>,半天下载不下来，可以手动下载</li>
+</ol>
+<p>注意：如果下载<strong><em>closure-library</em></strong>的最新版，运行go run setup.go命令时会出现<strong><em>error:github.com/google/battery-historian/third_party/closure-library/closure/goog/streams/full_test_cases.js:635: ERROR - Parse error. ‘(‘ expected</em></strong></p>
+<p>建议下载2017以前版本，下载地址<a href="https://github.com/google/closure-library/releases/tag/v20161201" target="_blank" rel="noopener">https://github.com/google/closure-library/releases/tag/v20161201</a></p>
+<p>本人安装方法，手动安装closure-library的库后，在运行go run setup.go</p>
+<p>成功运行后的结果：</p>
+<p><img src="AE1C799E68AE4DBB85A315C9A0A63747" alt="third_party"></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/03/09/Battery-Historian%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/09/hello-world/" class="archive-article-date">
-  	<time datetime="2020-03-09T14:29:58.269Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-09</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/09/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/09/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -242,8 +442,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
